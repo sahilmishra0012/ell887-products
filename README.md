@@ -6,6 +6,5 @@ USERNAME="sahilmishra32"
 PASSWORD="password"
 docker login $REGISTRY_URL -u $USERNAME -p $PASSWORD
 docker push sahilmishra32/products:latest
-printf "\n\n\n\n"
 docker run -p 3000:3000 sahilmishra32/products:latest
 ```
