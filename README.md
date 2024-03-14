@@ -3,7 +3,7 @@
 ## What we do here?
 - Create a NodeJS server which serves HTML pages to input product names and display them.
 - Connect the server to the Azure CosmosDB for MongoDB Database Account to store the product names.
-- A script to create collection to store data.
+- A script `createCollection.js`  to create collection to store data.
 - Dockerfile to create a docker image of the NodeJS Server with exposed port 3000. 
 
 TO Run a docker container of the CRUD Server, run the following commands:
