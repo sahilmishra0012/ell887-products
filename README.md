@@ -6,7 +6,7 @@
 - A script `createCollection.js`  to create collection to store data.
 - Dockerfile to create a docker image of the NodeJS Server with exposed port 3000. 
 
-TO create a docker image, push it to Docker Hub and start a docker container of the CRUD Server, run the following commands:
+To create a docker image, push it to Docker Hub and start a docker container of the CRUD Server, run the following commands:
 ```
 docker build -t sahilmishra32/products:latest .
 REGISTRY_URL="https://index.docker.io/v1/"
